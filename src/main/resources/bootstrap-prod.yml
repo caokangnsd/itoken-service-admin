@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://47.114.63.61:8888
+      name: itoken-service-admin
+      label: master
+      profile: prod # 生产环境配置文件
